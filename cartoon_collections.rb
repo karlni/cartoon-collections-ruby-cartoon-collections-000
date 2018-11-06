@@ -9,7 +9,9 @@ def planeteer_calls(planeteer_calls)
   end
 end
 
-def long_planeteer_calls()
+def long_planeteer_calls(words)
+  
+end
     
 
 roll_call_dwarves ["Doc", "Dopey", "Bashful", "Grumpy"]
