@@ -5,7 +5,7 @@ end
 
 def planeteer_calls(planeteer_calls)
   planeteer_calls.collect do |call|
-    
+    call.capitalize + "!"
     
 
 roll_call_dwarves ["Doc", "Dopey", "Bashful", "Grumpy"]
