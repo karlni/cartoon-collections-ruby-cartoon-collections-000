@@ -1,8 +1,8 @@
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |name, index|
-    puts "#{index + 1} "
-  
+    puts "#{index + 1} #{name}"
 end
+
 
 roll_call_dwarves ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
