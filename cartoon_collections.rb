@@ -3,6 +3,9 @@ def roll_call_dwarves(dwarves)
     puts "#{index + 1} #{name}"
 end
 
+def planeteer_calls(calls)
+  calls.collect do |call|
+    
 
 roll_call_dwarves ["Doc", "Dopey", "Bashful", "Grumpy"]
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
